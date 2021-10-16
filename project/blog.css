@@ -1,0 +1,57 @@
+main {
+    width: 40%;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+}
+.avatar {
+    background-image: url('./images/avatar2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.date {
+    color: rgb(134, 131, 131);
+}
+
+.blog-container {
+    background-color: rgb(223, 222, 221);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+@media(max-width: 900px) {
+    main {
+        width: 60%;
+    }
+}
+
+
+@media(max-width: 600px) {
+    main {
+        width: 80%;
+    }
+}
+
