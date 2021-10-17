@@ -7,7 +7,7 @@
     text-align: center;
 }
 .avatar2 {
-    background-image: url('./images/avatar2.png');
+    background-image: url('../images/avatar2.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;

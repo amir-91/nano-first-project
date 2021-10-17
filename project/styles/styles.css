@@ -11,7 +11,7 @@
 /* banner */
 
 .background {
-    background-image: url('./images/background.png');
+    background-image: url('../images//background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:bottom;
@@ -35,7 +35,7 @@
 }
 
 .avatar {
-    background-image: url('./images/avatar.png');
+    background-image: url('../images//avatar.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
