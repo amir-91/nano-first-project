@@ -76,19 +76,12 @@ blockquote p::after {
     margin-bottom: 10px;
 }
 
-.item {
-    text-decoration: none;
-    color: cornflowerblue;
-}
-
-.list {
-    display: flex;
-}
-
-.word {
-    list-style: none;
-    padding-left: 70px;
-    list-style: none;
+.button {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 
